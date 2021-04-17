@@ -1,6 +1,6 @@
 {
   "name": "@tagged/format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small formatting library based on a tagged template literal",
   "main": "dist/index.js",
   "directories": {
@@ -52,7 +52,6 @@
   },
   "homepage": "https://github.com/roziscoding/format#readme",
   "files": [
-    "dist/**/*.{d.ts,js}",
-    "!dist/types/*"
+    "dist/**/*.{d.ts,js}"
   ]
 }
