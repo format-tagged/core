@@ -4,17 +4,17 @@ Simple, 0 dependency library meant to make formatting strings easy
 
 ## Installation
 
-`npm i @roziscoding/format`
+`npm i @tagged/format`
 
 OR
 
-`yarn add @roziscoding/format`
+`yarn add @tagged/format`
 
 ## Usage
 
 ```typescript
-import { getFormat, getFullFormat } from '@roziscoding/format'
-import { currency, json, date, time } from '@roziscoding/format/strategies'
+import { getFormat, getFullFormat } from '@tagged/format'
+import { currency, json, date, time } from '@tagged/format/strategies'
 
 const format = getFormat([currency, json, date, time], { locale: 'PT-br' }) // Does not load any strategy. Only uses passed ones
 const fullFormat = getFullFormat({ locale: 'PT-br' }) // Loads all default strategies
